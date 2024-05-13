@@ -5,7 +5,7 @@ import { format } from "date-fns";
 
 const Blogs = () => {
   return (
-    <div className="container mx-auto ">
+    <div className="container mx-auto px-5">
    
       <h3 className="md:text-2xl  max-w text-xl ">All Blogs</h3>
       <Divider className="" />
