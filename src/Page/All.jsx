@@ -96,7 +96,7 @@ const All = () => {
                 aria-label="Enter Job Title"
               />
 
-              <button className="px-1 md:px-4 py-3 text-sm font-medium tracking-wider
+              <button className="px-1 md:px-4 py-2 text-sm font-medium tracking-wider
                text-gray-100 uppercase transition-colors duration-300 transform  bg-blue-500 rounded-md
                   focus:outline-none">
                 Search
