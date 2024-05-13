@@ -59,7 +59,7 @@ const My = () => {
       <div className="flex items-center gap-x-3">
         <h2 className="text-lg font-medium text-gray-800 ">My Total Jobs</h2>
 
-        <span className="px-3 py-1 text-xs text-blue-600 bg-blue-100 rounded-full ">
+        <span className="px-2 py-1 text-xs text-blue-600 bg-blue-100 rounded-full ">
           {jobs.length}
         </span>
       </div>
