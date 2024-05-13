@@ -1,0 +1,89 @@
+
+.containers {
+    position: relative;
+    overflow: hidden;
+}
+
+.containers-box {
+    display: flex;
+    gap: 20px;
+}
+
+.containers-one {
+    background-color: rgb(117, 13, 13);
+}
+
+.containers::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #209CEE;
+    top: 0;
+    right: 0;
+    height: 3px;
+    width: 0%;
+    z-index: 50;
+    transition: 0.2s ease-in all;
+}
+
+.containers::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: #209CEE;
+    height: 3px;
+    width: 0%;
+    z-index: 50;
+    transition: 0.2s ease-in all;
+    transition-delay: 0.4s;
+}
+
+.containers span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    background-color: #209CEE;
+    height: 0%;
+    width: 3px;
+    z-index: 40;
+    transition: 0.2s ease-in all;
+    transition-delay: 0.6s;
+}
+
+.containers span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #209CEE;
+    height: 0%;
+    width: 3px;
+    z-index: 40;
+    transition: 0.2s ease-in all;
+    transition-delay: 0.2s;
+}
+
+
+.containers:hover::after {
+    left: 0;
+    width: 100%;
+}
+
+.containers:hover::before {
+    right: 0;
+    width: 100%;
+}
+
+
+.containers:hover span::after {
+    height: 100%;
+    bottom: 0;
+}
+
+.containers:hover span::before { 
+    height: 100%;
+    top: 0;
+}

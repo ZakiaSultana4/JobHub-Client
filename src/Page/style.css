@@ -1,0 +1,32 @@
+
+.login-container {
+    background: url("https://wp.alithemes.com/html/jobhub/frontend/assets/imgs/blog/img-job.png") no-repeat center center;
+    background-size: cover;
+}
+
+.social-login-btn {
+    position: relative;
+    overflow: hidden;
+    transition: all ease-in .5s;
+}
+
+.social-login-btn  span {
+    position: absolute;
+    content: "Hello";
+    right: 120px;
+    transition: all ease-in .5s;
+}
+
+.social-login-btn:hover span {
+    position: relative;
+    right: 0;
+}
+
+.overlayz {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.50);
+}

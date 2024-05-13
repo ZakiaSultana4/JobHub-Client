@@ -1,0 +1,42 @@
+#background-video{
+
+    height: 100%;
+    width: 100%;
+    float: left;
+    top: 0;
+    padding: none;
+    position: fixed; /* optional depending on what you want to do in your app */
+    
+    
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.50);
+    z-index: 3;
+}
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
