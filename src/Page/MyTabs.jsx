@@ -24,7 +24,7 @@ const MyTabs = () => {
           Browse All Jobs By Categories
         </h1>
 
-        <p className='max-w-2xl mx-auto my-6 text-center text-gray-500 '>
+        <p className='max-w-2xl mx-auto my-5 text-center text-gray-500 '>
           Three categories available for the time being. They are 
           On Site Job, Remote Job, Hybrid Job and Part Time Job. Browse them by
           clicking on the tabs below.
