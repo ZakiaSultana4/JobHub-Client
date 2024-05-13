@@ -96,7 +96,7 @@ const AddJob = () => {
     if (bannerRef.current) {
       bannerRef.current.click();
     }
-    console.log("ghfghgf");
+   
   };
   const handleCompanyButtonClick = () => {
     if (companyLogoRef.current) {
@@ -105,7 +105,7 @@ const AddJob = () => {
   };
   return (
     <div
-      className="max-w-7xl mx-auto lg:px-0 md:px-5 px-3
+      className="max-w-7xl mx-auto lg:px-0 md:px-5 px-2
         border border-dashed my-10 rounded-lg"
     >
       <form action="" onSubmit={handleAdd} className=" ">
