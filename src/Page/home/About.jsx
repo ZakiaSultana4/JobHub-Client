@@ -11,7 +11,7 @@ const About = () => {
             seach gives you the opportunity to find candidates who may be a
             perfect fit for your role
           </p>
-          <div className="flex pt-6">
+          <div className="flex pt-5">
             <button className="capitalize border-2 border-primaryColor bg-primaryColor bg-blue-500 text-white rounded-none py-3 md:px-8 px-4 flex items-center md:gap-5 gap-2 md:text-base text-sm">
              Submit your resume now
             </button>
