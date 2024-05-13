@@ -12,7 +12,7 @@ const Banner = () => {
           Find a Job that match your interests with us. JobHub provides a
           place to find your dream jobs
         </p>
-        <div className="flex pt-6">
+        <div className="flex pt-5">
           <button className="capitalize border-2 border-primaryColor bg-primaryColor  rounded-none py-3 md:px-8 px-4 flex items-center md:gap-5 gap-2 md:text-base text-sm">
             Get Start <MdOutlineArrowForwardIos />
           </button>
