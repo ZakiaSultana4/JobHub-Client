@@ -3,7 +3,7 @@
 const Ab = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 container">
-   <div className=" grid md:grid-cols-6 grid-cols-2 gap-3  mt-2">
+   <div className=" grid md:grid-cols-6 grid-cols-2 gap-3  mt-3">
        <div className="  py-9 px-8  text-center  ">
            <img src="https://wp.alithemes.com/html/jobhub/frontend/assets/imgs/jobs/logos/samsung.svg" alt="" className="w-[200px]"/>
        </div>
