@@ -1,6 +1,6 @@
 # live Link : https://jobhub-a11.web.app/
 
-**Technologies :** React js, Tailwind css, Daisy UI, Firebase, JWT, Node js, Express js, and Mongodb.
+**Technologies :** React js, Tailwind css, Daisy UI, React to pdf,Firebase, JWT, Node js, Express js, and Mongodb.
 
 # Five Features Of This Web Site
 
