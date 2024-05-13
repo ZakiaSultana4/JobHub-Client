@@ -2,7 +2,7 @@
 
 const Br = () => {
   return (
-   <div className="max-w-7xl mx-auto my-8 px-4 container">
+   <div className="max-w-7xl mx-auto my-5 px-4 container">
      <h1 className='text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl my-2'>
     Sponsord By The Top Company In The World
   </h1>
