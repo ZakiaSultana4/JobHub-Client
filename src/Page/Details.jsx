@@ -35,7 +35,7 @@ const Details = () => {
       <img
         src={bannerUrl}
         alt=""
-        className=" mb-3 w-full h-[480px]  text-center flex-1"
+        className=" mb-2 w-full h-[480px]  text-center flex-1"
       />
       <div className="flex-1  px-4 py-7 bg-white rounded-md shadow-md md:min-h-[350px]">
         <div className="flex items-center justify-between">
