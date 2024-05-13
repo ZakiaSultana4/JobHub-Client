@@ -19,7 +19,7 @@ const MyTabs = () => {
   }, []);
   return (
     <Tabs>
-      <div className=' container px-6 py-10 mx-auto'>
+      <div className=' container px-5 py-10 mx-auto'>
         <h1 className='text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl '>
           Browse All Jobs By Categories
         </h1>
